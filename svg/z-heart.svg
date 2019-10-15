@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Mask" d="M10,19a.877.877,0,0,1-.643-.282l-7.637-8.1a6.494,6.494,0,0,1,0-8.8A5.635,5.635,0,0,1,10,1.8a5.636,5.636,0,0,1,8.282.018,6.5,6.5,0,0,1,0,8.8l-7.64,8.1A.877.877,0,0,1,10,19ZM5.865,1.928A3.911,3.911,0,0,0,3,3.185,4.484,4.484,0,0,0,3,9.257L10,16.673l7-7.416a4.484,4.484,0,0,0,0-6.071,3.889,3.889,0,0,0-5.727,0,4.227,4.227,0,0,0-.511.663.882.882,0,0,1-1.516,0,4.252,4.252,0,0,0-.51-.663A3.913,3.913,0,0,0,5.865,1.928Z" fill="#111"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_heart-2" data-name="Icon/heart-2" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+    <rect id="Box" width="20" height="20" fill="none"/>
+    <path id="Mask-2" data-name="Mask" d="M10,19a.877.877,0,0,1-.643-.282l-7.637-8.1a6.494,6.494,0,0,1,0-8.8A5.635,5.635,0,0,1,10,1.8a5.636,5.636,0,0,1,8.282.018,6.5,6.5,0,0,1,0,8.8l-7.64,8.1A.877.877,0,0,1,10,19ZM5.865,1.928A3.911,3.911,0,0,0,3,3.185,4.484,4.484,0,0,0,3,9.257L10,16.673l7-7.416a4.484,4.484,0,0,0,0-6.071,3.889,3.889,0,0,0-5.727,0,4.227,4.227,0,0,0-.511.663.882.882,0,0,1-1.516,0,4.252,4.252,0,0,0-.51-.663A3.913,3.913,0,0,0,5.865,1.928Z" transform="translate(0.004 0.5)" fill="#111"/>
+    <g transform="translate(0.004 0.5)" clip-path="url(#clip-path-2)">
+      <g id="Fill_Color_Title" data-name="Fill/Color/Title" transform="translate(-0.004 -0.5)" clip-path="url(#clip-path)">
+        <rect id="Fill_Color_Black" data-name="Fill/Color/Black" width="20" height="20"/>
+      </g>
+    </g>
+  </g>
+</svg>

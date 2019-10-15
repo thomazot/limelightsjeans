@@ -1,0 +1,50 @@
+.showcase
+    margin-top: 50px
+    padding-top: 30px
+
+    &__name
+        font-size: 16px
+        font-weight: medium
+
+    &__img
+        text-align: center
+        height: 500px
+        width: 100%
+        margin-bottom: 16px
+
+        img
+            width: 100%
+            height: 100%
+            object-fit: contain
+
+    &__description
+        font-size: 13px
+        font-weight: regular
+        color: #666
+        padding: 10px 0 16px
+
+    &__link
+        display: block
+        text-align: right
+        font-size: 16px
+        font-weight: medium
+
+@media (min-width: 993px)
+    .showcase
+        position: relative
+
+        &:before
+            content: ''
+            position: absolute
+            z-index: -1
+            width: 100%
+            left: 0
+            top: 0
+            height: 65%
+            background: #F6F6F6
+            box-shadow: 800px 0 0 #F6F6F6, -800px 0 0 #F6F6F6
+
+        &__main
+            display: flex
+            justify-content: space-between
+            align-items: flex-start

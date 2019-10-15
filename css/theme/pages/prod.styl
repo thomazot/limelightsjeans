@@ -1,0 +1,295 @@
+.configurable:before, .related__subtitle, .related__add-checkbox
+    display: none
+
+.configurable, .product-image-gallery
+    margin: 0
+
+.product-image-gallery
+    box-shadow: none
+    margin-bottom: 20px
+
+.product-image-thumbs .thumb-link, .product-image-thumbs .thumb-link:hover, .product-image-thumbs .thumb-link.on
+    box-shadow: none
+
+.prod__name h1
+    font-size: 29px
+    font-weight: medium
+    line-height: 1
+    margin-bottom: 20px
+
+.prod__shop
+    text-align: center
+
+    .configurable-swatch-list
+        justify-content: center
+
+    .col
+        flex: 1
+        min-width: 0
+
+    .regular-price
+        .label
+            display: none
+
+        .price span
+            font-size: 24px
+            font-weight: medium
+
+    .qty-wrapper
+        position: relative
+        top: 0
+        transform: none
+        width: 110px
+        padding: 0 35px
+        border: solid 1px #eee
+        background: #F6F6F6
+        left: 0
+        margin: 0
+
+        input
+            width: 100%
+            height: 48px
+            padding: 0
+            background: none
+            border: 0
+            box-shadow: none
+            color: #000
+            font-size: 14px
+
+        .bt-box
+            position: static
+            box-shadow: none
+            transform: none
+            border-radius: 0
+            background: none
+            top: 0
+            height: 0
+            width: 100%
+
+        .plus, .less
+            position: absolute
+            top: 0
+            width: 35px
+            height: 50px
+            text-indent: 0
+            border-radius: 0
+            background: none
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 20px
+            color: #BBBBBB
+
+            span
+                display: block
+
+            &:before
+                display: none
+
+        .less
+            left: 0
+
+        .plus
+            right: 0
+
+        .input-box
+            position: static
+
+    .add-to-cart-buttons
+        display: flex
+        justify-content: space-between
+        padding: 20px
+        border: solid 1px #eee
+
+    .add-to-cart-btn
+        padding: 0
+        max-width: 180px
+        height: 50px
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 14px
+        font-weight: regular
+        color: #fff
+        background: #000
+        line-height: 1
+
+.sharing-links .list:before
+    display: none
+
+.sharing-links .ico
+    width: 28px
+    height: 28px
+
+.sharing-links
+    margin-bottom: 30px
+
+    .list
+        justify-content: center
+
+    li
+        display: none
+        margin: 0 5px
+
+        a
+            background: none !important
+
+            .ico
+                fill: #000 !important
+
+        &.fb-share, &.wa-share
+            display: block
+
+.tabs__tab
+    margin: 0 !important
+
+.related__title
+    text-align: center
+
+.related
+    background: #F6F6F6
+
+.configurable
+    .configurable-swatch-list
+        a
+            box-shadow: none
+            width: 36px
+            height: 36px
+            min-width: 0
+            border-radius: 50%
+            overflow: hidden
+
+            &.swatch-link:not(.has-image)
+                border: solid 1px #EEEEEE
+                height: auto
+                border-radius: 3px
+                color: #999999
+
+        .selected
+            a
+                &.has-image
+                    border: solid 1px #FF7622
+                    padding: 6px
+                    background: #fff
+
+                &.swatch-link:not(.has-image)
+                    color: #000000
+                    border-color: #000000
+                    background: #fff
+
+            img
+                width: 23px
+                height: 22px
+                border-radius: 50%
+
+.configurable__caption
+    label
+        font-size: 17px
+
+@media (max-width: 992px)
+    .related__title, .recommended__title, .whosaw__title, .jointsales__title, .upsell__title, .parcelamento .title
+        margin: 0
+
+@media (min-width: 993px)
+    .related
+        box-shadow: 800px 0 0 #F6F6F6, -800px 0 0 #F6F6F6
+        padding: 30px 0 40px
+
+    .prod__shop
+        .add-to-cart-buttons
+            justify-content: flex-start
+
+        .add-to-cart-btn
+            margin-left: 40px
+
+    .prod__img
+        flex: 0 0 55%
+
+    .product-image-container
+        display: flex
+
+    .more-views
+        order: -1
+        width: 155px
+
+        .video
+            display: none
+
+        li
+            max-height: 188px
+            overflow: hidden
+
+    .product-image-thumbs
+        display: block
+
+    .tabs
+        margin-top: 30px
+
+    .tabs__tab
+        border: 0
+        padding-left: 0
+        width: 33%
+        text-align: left
+        font-size: 18px
+        color: #999999
+
+        &.on
+            font-size: 18px
+            color: #000
+
+    .tabs__content
+        border: 0
+        padding: 0
+        text-align: left
+        font-size: 14px
+        font-weight: regular
+        color: #666666
+
+    .configurable
+        display: block
+
+    .parcelamento
+        &:before
+            content: 'Parcelamento'
+            font-size: 17px
+            font-weight: medium
+            color: #000
+            display: block
+            padding: 10px 0
+
+        ul
+            border: solid 1px #eee
+            border-radius: 3px
+            padding: 10px 20px
+            column-count: 1
+            margin: 0 auto 30px
+            width: 200px
+            position: relative
+
+            &:after
+                content: ''
+                position: absolute
+                width: 0
+                height: 0
+                border-top: solid 10px #999999
+                border-left: solid 6px transparent
+                border-right: solid 6px transparent
+                right: 16px
+                top: 18px
+
+            li
+                border: 0
+                display: none
+                font-size: 15px
+                font-weight: regular
+                color: #999999
+
+                &:nth-child(2)
+                    display: block
+
+            &:hover
+                li
+                    display: block
+
+            .s-juros, .c-juros
+                display: none

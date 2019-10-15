@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="22" height="22" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Mask" d="M18.15,20a1.115,1.115,0,0,1-.577-.161L12.134,16.55H11.5a.953.953,0,1,1,0-1.9h.95a1.12,1.12,0,0,1,.581.159l4.077,2.465V15.6a1,1,0,0,1,1.045-.948h2.756V4.4A1.05,1.05,0,0,1,23,4.4V15.6a1,1,0,0,1-1.045.948H19.2v2.5A1,1,0,0,1,18.15,20Zm-13.3-2.586a1.13,1.13,0,0,1-.728-.265.9.9,0,0,1-.321-.685V13.1H1.045A1,1,0,0,1,0,12.154V.948A1,1,0,0,1,1.045,0H18.153A1,1,0,0,1,19.2.948V12.154a1,1,0,0,1-1.045.948H11.835L5.455,17.236A1.107,1.107,0,0,1,4.851,17.414ZM2.091,1.9v9.31H4.847a1,1,0,0,1,1.045.948v2.468l5-3.239a1.127,1.127,0,0,1,.608-.177h5.608V1.9Z" transform="translate(0 -0.063)" fill="#111"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="23" height="23" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_chat-46" data-name="Icon/chat-46" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <rect id="Box" width="23" height="23" transform="translate(0 0)" fill="none"/>
+    <path id="Mask-2" data-name="Mask" d="M18.15,20a1.115,1.115,0,0,1-.577-.161L12.134,16.55H11.5a.953.953,0,1,1,0-1.9h.95a1.12,1.12,0,0,1,.581.159l4.077,2.465V15.6a1,1,0,0,1,1.045-.948h2.756V4.4A1.05,1.05,0,0,1,23,4.4V15.6a1,1,0,0,1-1.045.948H19.2v2.5A1,1,0,0,1,18.15,20Zm-13.3-2.586a1.13,1.13,0,0,1-.728-.265.9.9,0,0,1-.321-.685V13.1H1.045A1,1,0,0,1,0,12.154V.948A1,1,0,0,1,1.045,0H18.153A1,1,0,0,1,19.2.948V12.154a1,1,0,0,1-1.045.948H11.835L5.455,17.236A1.107,1.107,0,0,1,4.851,17.414ZM2.091,1.9v9.31H4.847a1,1,0,0,1,1.045.948v2.468l5-3.239a1.127,1.127,0,0,1,.608-.177h5.608V1.9Z" transform="translate(0 1)" fill="#111"/>
+    <g transform="translate(0 1.063)" clip-path="url(#clip-path-2)">
+      <g id="Fill_Color_Title" data-name="Fill/Color/Title" transform="translate(0 -1.063)" clip-path="url(#clip-path-3)">
+        <rect id="Fill_Color_Black" data-name="Fill/Color/Black" width="23" height="23" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

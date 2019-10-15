@@ -155,6 +155,10 @@
                     selector: '.toolbar .view-mode .list',
                     mode: 'html',
                 },
+                'z-close': {
+                    selector: '.mycart__remove',
+                    mode: 'html',
+                },
             }
             $j(document).ready(function() {
                 addSVG(svgs)
@@ -690,8 +694,8 @@
         m_categories: true,
         m_search: true,
         m_filters: true,
-        m_myaccount: true,
-        m_mycart: true,
+        m_myaccount: false,
+        m_mycart: false,
         m_parcelamento: true,
         m_frete: true,
         m_produto: true,
@@ -904,7 +908,7 @@ function default_carrossel_produtos() {
                         [568, 2],
                         [768, 3],
                         [1024, 4],
-                        [1270, 5],
+                        [1270, 4],
                     ],
                     beforeMove: function() {
                         if (typeof $j.fn.lazyload != 'undefined') {
@@ -1304,51 +1308,51 @@ function m_painelCliente() {
  * Prototype:   $
  */
 
-$j.fn.neonTheme.custom = {
-    /**
-     * Opções Padrões do Tema
-     * Estas opções podem apenas ser ligadas ou desligadas.
-     * ! Cuidado ao desativar estar opções pois elas podem comprometer o funcionamento do tema.
-     * ! Desative apenas se você souber o que está fazendo.
-     */
-    default_categories_justify: true, // modo justify da inserção de Menu de Categorias
-    default_categories_mini: true, // modo mini da inserção de Menu de Categorias
-    default_categories_carrossel: true, // modo carrossel da inserção de Menu de Categorias
-    default_carrossel_produtos: true, // carrossel padrão das Coleções de Produtos
-    default_carrossel_jointsales: true, // carrossel dos produtos do Compre Junto @compre-junto
-    default_carrossel_brands: true, // modo carrossel da listagem de marcas
-    default_dropFrom: true, // ativa o dropFrom para as inserções: Lista de Desejos, Meu Carrinho, Minha Conta, Menu de Categories e Busca com Filtros
-    default_SVGs: true, // insere os ícones padrões do SVG sprite
-    default_tabs: true, // ativa o componente .tabs do tema
-    /* - Fixes */
-    fix_IE_SVGs: true, // corrige as dimensões de SVGs inline no IE
-    fix_zoomHeader: true, // corrige o z-index do .header e do zoom dos produtos no :hover de cada um
-    fix_address_phone: true, // corrige a exibição do ícone de telefone nas listagens de endereços
-    fix_category_description: true, // troca a posição padrão da descrição da categoria
-    fix_catalog_flexbox: true, // adiciona elementos para arrumar o flexbox do catálogo
-    /* - Responsivo */
-    m_categories: true, // ativa o responsivo do Menu de Categorias
-    m_search: true, // ativa o responsivo da Busca
-    m_filters: true, // ativa o responsivo dos Filtros do Catálogo
-    m_myaccount: true, // ativa o responsivo da Minha Conta
-    m_mycart: true, // ativa o responsivo do Meu Carrinho
-    m_parcelamento: true, // ativa o responsivo do parcelamento na página de produto
-    m_frete: true, // ativa o responsivo do cálculo de frete na página do produto
-    m_produto: true, // ativa o responsivo de cada bloco da página de produto
-    m_tabs: true, // ativa o responsivo do componente .tabs do tema
-    m_painelCliente: true, // ativa o responsivo do Menu do Painel de Cliente
-    /**
-     * Funcionalidades do Tema
-     */
-    dropFrom: false,
-    addSVG: {
-        'img-truck': {
-            selector: '.frete .frete__content .input-box label',
-            mode: 'prepend',
-            ratio: false,
-        },
-    },
-}
+// $j.fn.neonTheme.custom = {
+//     /**
+//      * Opções Padrões do Tema
+//      * Estas opções podem apenas ser ligadas ou desligadas.
+//      * ! Cuidado ao desativar estar opções pois elas podem comprometer o funcionamento do tema.
+//      * ! Desative apenas se você souber o que está fazendo.
+//      */
+//     default_categories_justify: true, // modo justify da inserção de Menu de Categorias
+//     default_categories_mini: true, // modo mini da inserção de Menu de Categorias
+//     default_categories_carrossel: true, // modo carrossel da inserção de Menu de Categorias
+//     default_carrossel_produtos: true, // carrossel padrão das Coleções de Produtos
+//     default_carrossel_jointsales: true, // carrossel dos produtos do Compre Junto @compre-junto
+//     default_carrossel_brands: true, // modo carrossel da listagem de marcas
+//     default_dropFrom: true, // ativa o dropFrom para as inserções: Lista de Desejos, Meu Carrinho, Minha Conta, Menu de Categories e Busca com Filtros
+//     default_SVGs: true, // insere os ícones padrões do SVG sprite
+//     default_tabs: true, // ativa o componente .tabs do tema
+//     /* - Fixes */
+//     fix_IE_SVGs: true, // corrige as dimensões de SVGs inline no IE
+//     fix_zoomHeader: true, // corrige o z-index do .header e do zoom dos produtos no :hover de cada um
+//     fix_address_phone: true, // corrige a exibição do ícone de telefone nas listagens de endereços
+//     fix_category_description: true, // troca a posição padrão da descrição da categoria
+//     fix_catalog_flexbox: true, // adiciona elementos para arrumar o flexbox do catálogo
+//     /* - Responsivo */
+//     m_categories: true, // ativa o responsivo do Menu de Categorias
+//     m_search: true, // ativa o responsivo da Busca
+//     m_filters: true, // ativa o responsivo dos Filtros do Catálogo
+//     m_myaccount: false, // ativa o responsivo da Minha Conta
+//     m_mycart: false, // ativa o responsivo do Meu Carrinho
+//     m_parcelamento: true, // ativa o responsivo do parcelamento na página de produto
+//     m_frete: true, // ativa o responsivo do cálculo de frete na página do produto
+//     m_produto: true, // ativa o responsivo de cada bloco da página de produto
+//     m_tabs: true, // ativa o responsivo do componente .tabs do tema
+//     m_painelCliente: true, // ativa o responsivo do Menu do Painel de Cliente
+//     /**
+//      * Funcionalidades do Tema
+//      */
+//     dropFrom: false,
+//     addSVG: {
+//         'img-truck': {
+//             selector: '.frete .frete__content .input-box label',
+//             mode: 'prepend',
+//             ratio: false,
+//         },
+//     },
+// }
 
 /**
  * Responsive ifs
@@ -1450,6 +1454,79 @@ $j(document)
             if ($(event.target).hasClass('parent')) {
                 $(event.target).toggleClass('on')
             }
+        })
+
+        // Wish
+        $('.mywish__header a').click(function(event) {
+            event.preventDefault()
+            $('body').toggleClass('is-wish')
+        })
+
+        var wish = $('.mywish')
+        if (wish.length) {
+            wish.append('<button type="button" class="mywish__close"></button>')
+            $('.mywish__close').click(function() {
+                $('body').removeClass('is-wish')
+            })
+        }
+
+        // My Account
+        $('.myaccount__header a').click(function(event) {
+            event.preventDefault()
+            $('body').toggleClass('is-account')
+        })
+
+        var wish = $('.myaccount')
+        if (wish.length) {
+            wish.append(
+                '<button type="button" class="myaccount__close"></button>'
+            )
+            $('.myaccount__close').click(function() {
+                $('body').removeClass('is-account')
+            })
+        }
+
+        // My Cart
+        $('.mycart__header a').click(function(event) {
+            event.preventDefault()
+            $('body').toggleClass('is-cart')
+        })
+
+        var wish = $('.mycart')
+        if (wish.length) {
+            wish.append('<button type="button" class="mycart__close"></button>')
+            $('.mycart__close').click(function() {
+                $('body').removeClass('is-cart')
+            })
+        }
+
+        // Category Filter
+        $('.filters__filter').each(function() {
+            var name = $(this).find('.filters__name')
+            var select = $('<select></select>')
+            var option = $('<option value="">' + name.text() + '</option>')
+
+            select.append(option)
+            select.on('change', function(event) {
+                if (event.target.value)
+                    window.location.href = event.target.value
+            })
+
+            $(this)
+                .find('li')
+                .each(function() {
+                    var item = $(
+                        '<option value="' +
+                            $(this)
+                                .find('a')
+                                .attr('href') +
+                            '">' +
+                            $(this).text() +
+                            '</option>'
+                    )
+                    select.append(item)
+                })
+            $('.toolbar .sort-by').prepend(select)
         })
     })
     .on('resizeStop', function(e) {

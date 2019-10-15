@@ -1,0 +1,30 @@
+.header
+    &-head
+        position: sticky
+        top: 0
+        background: color1_bg
+        color: #fff
+
+        &__container
+            max-width: viewport
+            margin: 0 auto
+            line-height: 1
+            font-size: 8px
+            font-weight: regular
+            text-transform: uppercase
+            text-align: center
+            padding: 5px 0
+
+    &-container
+        position: sticky
+        top: 0
+        background: #fff
+
+@media (min-width: 993px)
+    .header
+        max-width: viewport
+
+        &-head
+            &__container
+                font-size: 12px
+                padding: 19px 0

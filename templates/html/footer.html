@@ -1,0 +1,36 @@
+<div class="footer__row">
+    <div class="footer__col">
+        <div class="footer__about">
+            <h3 class="footer__title">Sobre nós</h3>
+            <div class="footer__text">
+                LimeLight Jeans é uma marca de moda para as mulher e os homens
+                que querem ser modernos, funcional, projeto considerado.
+            </div>
+        </div>
+    </div>
+    <div class="footer__col">
+        <h3 class="footer__title">Info da loja</h3>
+        {{block type="menubuilder/output" identifier="info-loja"}}
+    </div>
+    <div class="footer__col">
+        <h3 class="footer__title">Compre por</h3>
+        {{block type="menubuilder/output" identifier="compre-por"}}
+    </div>
+    <div class="footer__col">
+        <h3 class="footer__title">Suporte ao cliente</h3>
+        {{block type="menubuilder/output" identifier="suporte-cliente"}}
+    </div>
+    <div class="footer__col">
+        <h3 class="footer__title">Fale Conosco</h3>
+        <div class="footer__text">
+            Av. Santos Dumont, 251, Bom Retiro <br />
+            São Paulo, SP, 01101-000 Brazil <br />
+            Horário de atendimento De Seg. a Sex. das 9 as <br />
+            18(11) 3326-3377 - +55 11 97096-3202 <br />
+        </div>
+        {{widget type="interface/widget_social" template="interface/widgets/social.phtml" identificador="social" redes="all"}}
+    </div>
+</div>
+<div class="footer__row">
+    {{widget type="interface/widget_pagtos" template="interface/widgets/pagtos.phtml" identificador="payments" pagtos="all"}}
+</div>

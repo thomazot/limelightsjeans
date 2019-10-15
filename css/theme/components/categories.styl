@@ -1,5 +1,9 @@
 @media (max-width: 992px)
     .categories
+        &__show
+            background: #fff
+            color: color1_bg
+
         .parent
             position: relative
 
@@ -39,3 +43,47 @@
 
         .all-li--0
             padding-bottom: 0
+
+@media (min-width: 993px)
+    .categories
+        position: relative
+        z-index: 30
+        background: #fff
+
+        &__all
+            display: none
+
+        .a--0
+            font-size: 16px
+            font-weight: light
+            text-transform: uppercase
+            color: color1_bg
+
+        .a--1
+            font-size: 13px
+            font-weight: medium
+            color: #000
+
+        .a--2
+            font-size: 13px
+            font-weight: regular
+            color: #666666
+
+        .ul--0
+            justify-content: center
+            max-width: viewport
+
+        .li--0
+            flex: 0 0 auto
+            position: static
+
+            &:hover .a--0
+                background: none
+                color: color1_bg
+
+        .box--1
+            width: 100%
+            box-shadow: 800px 0 0 #fff, -800px 0 0 #fff
+
+        &__products, &__block
+            border-left: 0

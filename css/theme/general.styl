@@ -13,7 +13,7 @@ bold = 700
 /**
  * Mixin - Viewport
  */
-viewport = 1160px
+viewport = 1497px
 /**
  * Mixin - Responsive
  * @media (max-width screen-sm-min)
@@ -45,11 +45,21 @@ screen-lg = 1200px
  * Estilo base do elementos do Html
  */
 body
-    font-family: 'Exo 2', sans-serif
+    font-family: 'Roboto', sans-serif
+
+.wrapper
+    padding: 0
+
+    &-container
+        padding-top: 0
+        overflow: visible
+
+.main
+    margin: 0
 
 /*
  * Components
- * Componentes que se adaptam ao contexto
+ * Componentefs que se adaptam ao contexto
  */
 /*
  * Component - Menssagens
@@ -89,3 +99,23 @@ body
  */
 @import 'components/logo'
 @import 'components/categories'
+@import 'components/search'
+@import 'components/myaccount'
+@import 'components/mycart'
+@import 'components/mywish'
+@import 'components/banner'
+@import 'components/owl'
+@import 'components/fashion'
+@import 'components/instagram'
+@import 'components/ruler'
+@import 'components/showcase'
+@import 'components/videos'
+@import 'components/header'
+@import 'components/footer'
+@import 'components/guide-shops'
+@import 'components/breadcrumb'
+@import 'components/toolbar'
+@import 'components/products'
+// Pages
+@import 'pages/catalog'
+@import 'pages/prod'

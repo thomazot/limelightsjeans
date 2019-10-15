@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Mask" d="M15.2,20H.8a.818.818,0,0,1-.8-.833V5a.818.818,0,0,1,.8-.833H4V5.833H1.6v12.5H14.4V5.833H12V4.168H10.4V5.832H12V7.5a.8.8,0,1,1-1.6,0V5.833H5.6V4.168h4.8A2.541,2.541,0,0,0,9.7,2.4,2.336,2.336,0,0,0,8,1.667a2.455,2.455,0,0,0-2.4,2.5H4A4.091,4.091,0,0,1,8,0a4.091,4.091,0,0,1,4,4.167h3.2A.818.818,0,0,1,16,5V19.166A.818.818,0,0,1,15.2,20ZM4.8,8.333A.818.818,0,0,1,4,7.5V5.833H5.6V7.5A.818.818,0,0,1,4.8,8.333Z" fill="#111"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Shop_2" data-name="Icon/Shop 2" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+    <rect id="Box" width="20" height="20" transform="translate(0 0)" fill="none"/>
+    <path id="Mask-2" data-name="Mask" d="M15.2,20H.8a.818.818,0,0,1-.8-.833V5a.818.818,0,0,1,.8-.833H4V5.833H1.6v12.5H14.4V5.833H12V4.168H10.4V5.832H12V7.5a.8.8,0,1,1-1.6,0V5.833H5.6V4.168h4.8A2.541,2.541,0,0,0,9.7,2.4,2.336,2.336,0,0,0,8,1.667a2.455,2.455,0,0,0-2.4,2.5H4A4.091,4.091,0,0,1,8,0a4.091,4.091,0,0,1,4,4.167h3.2A.818.818,0,0,1,16,5V19.166A.818.818,0,0,1,15.2,20ZM4.8,8.333A.818.818,0,0,1,4,7.5V5.833H5.6V7.5A.818.818,0,0,1,4.8,8.333Z" transform="translate(2)" fill="#111"/>
+    <g transform="translate(2)" clip-path="url(#clip-path-2)">
+      <g id="Fill_Color_Title" data-name="Fill/Color/Title" transform="translate(-2 0)" clip-path="url(#clip-path)">
+        <rect id="Fill_Color_Black" data-name="Fill/Color/Black" width="20" height="20"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Mask" d="M18.792,20h0l-4.843-4.843a8.61,8.61,0,0,0,1.208-1.208L20,18.792,18.793,20ZM8.542,17.084a8.541,8.541,0,1,1,6.614-3.136L14.008,12.8,12.8,14.009l1.147,1.147A8.557,8.557,0,0,1,8.542,17.084Zm0-15.376a6.834,6.834,0,1,0,6.834,6.834A6.841,6.841,0,0,0,8.542,1.708Z"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Search" data-name="Icon/Search" transform="translate(0 0.001)" clip-path="url(#clip-path)">
+    <rect id="Box" width="20" height="20" transform="translate(0)" fill="none"/>
+    <path id="Mask-2" data-name="Mask" d="M18.792,20h0l-4.843-4.843a8.61,8.61,0,0,0,1.208-1.208L20,18.792,18.793,20ZM8.542,17.084a8.541,8.541,0,1,1,6.614-3.136L14.008,12.8,12.8,14.009l1.147,1.147A8.557,8.557,0,0,1,8.542,17.084Zm0-15.376a6.834,6.834,0,1,0,6.834,6.834A6.841,6.841,0,0,0,8.542,1.708Z" transform="translate(0 0)"/>
+    <g transform="translate(0 0)" clip-path="url(#clip-path-2)">
+      <g id="Fill_Color_Title" data-name="Fill/Color/Title" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <rect id="Fill_Color_Black" data-name="Fill/Color/Black" width="20" height="20"/>
+      </g>
+    </g>
+  </g>
+</svg>

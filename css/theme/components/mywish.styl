@@ -1,0 +1,77 @@
+.mywish
+    .header &
+        position: static
+
+    .header &__header
+        box-shadow: none
+
+        .ico
+            width: 20px
+            height: 20px
+
+        .qtd
+            top: 0
+            right: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 20px
+            height: 20px
+            font-size: 12px
+            background: #94C7FF
+
+    &:hover
+        .mywish
+            &__header a
+                background: none
+
+    &__content
+        position: fixed
+        top: 0
+        right: 0
+        z-index: 55
+        height: 100%
+        width: 500px
+        max-width: 95%
+        padding: 16px
+        background: #ffff
+        transform: translateX(100%)
+        transition: all 0.4s ease
+        visibility: hidden
+        color: #707070
+        background: #F6F6F6
+
+        .is-wish &
+            visibility: visible
+            transform: translateX(0)
+
+        .title
+            font-size: 24px
+            font-weight: regular
+            text-transform: uppercase
+            text-align: center
+            color: #000
+
+    &__close
+        position: fixed
+        top: 0
+        left: 0
+        z-index: 50
+        width: 100%
+        height: 100%
+        background: url(blur)
+        filter: blur(10px)
+        opacity: 0
+        visibility: hidden
+        transition: all 0.2s ease
+
+        &:hover
+            background: url(blur)
+
+        .is-wish &
+            opacity: 0.5
+            visibility: visible
+
+.is-wish
+    max-height: 100%
+    overflow: hidden !important

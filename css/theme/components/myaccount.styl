@@ -1,0 +1,97 @@
+.myaccount
+    .header &
+        position: static
+        margin-left: 0
+
+    &__header
+        .ico
+            width: 20px
+            height: 20px
+
+    &__content
+        position: fixed
+        top: 0
+        right: 0
+        z-index: 55
+        height: 100%
+        width: 500px
+        max-width: 95%
+        transform: translateX(100%)
+        transition: all 0.4s ease
+        visibility: hidden
+        background: #F6F6F6
+
+        .is-account &
+            visibility: visible
+            transform: translateX(0)
+
+        .title
+            font-size: 24px
+            font-weight: regular
+            text-transform: uppercase
+            text-align: center
+
+    &__close
+        position: fixed
+        top: 0
+        left: 0
+        z-index: 50
+        width: 100%
+        height: 100%
+        background: url(blur)
+        filter: blur(10px)
+        opacity: 0
+        visibility: hidden
+        transition: all 0.2s ease
+
+        &:hover
+            background: url(blur)
+
+        .is-account &
+            opacity: 0.5
+            visibility: visible
+
+    .email-input, .password-input
+        background: #F6F6F6
+        box-shadow: none
+        border-radius: 0
+        border: 0
+        border-bottom: solid 1px color1_bg
+        padding: 0
+
+        &::placeholder
+            color: #7FBFFF
+            font-size: 20px
+            font-weight: regular
+            text-transform: uppercase
+
+        &:-webkit-autofill, &:-webkit-autofill:hover, &:-webkit-autofill:focus, &:-webkit-autofill:active
+            -webkit-box-shadow: 0 0 0 30px #F6F6F6 inset !important
+
+    &__login .pass
+        flex: 0 0 100%
+
+    &__forgot
+        position: static
+
+    &__login-btn
+        width: 170px
+        height: 50px
+        font-size: 13px
+        font-weight: regular
+        text-transform: uppercase
+
+    &__register
+        padding-top: 0
+        margin-top: 0
+        border-top: 0
+
+        &-btn
+            box-shadow: none
+            padding: 0
+            font-size: 12px
+            font-weight: regular
+            color: #999
+
+    .form-list .fields
+        flex-wrap: wrap

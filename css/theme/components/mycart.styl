@@ -1,0 +1,155 @@
+.mycart
+    position: static
+
+    .header &
+        margin-left: 0
+
+    &__header
+        .ico
+            width: 20px
+            height: 20px
+
+        .qtd
+            top: 0
+            right: 0
+            width: 20px
+            height: 20px
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 12px
+            font-weight: regular
+            background: #E56A54
+
+    &__content
+        position: fixed
+        top: 0
+        right: 0
+        z-index: 55
+        height: 100%
+        width: 500px
+        max-width: 95%
+        transform: translateX(100%)
+        transition: all 0.4s ease
+        visibility: hidden
+        background: #F6F6F6
+
+        .is-cart &
+            visibility: visible
+            transform: translateX(0)
+
+        .title
+            font-size: 24px
+            font-weight: regular
+            text-transform: uppercase
+            text-align: center
+
+    &__close
+        position: fixed
+        top: 0
+        left: 0
+        z-index: 50
+        width: 100%
+        height: 100%
+        background: url(blur)
+        filter: blur(10px)
+        opacity: 0
+        visibility: hidden
+        transition: all 0.2s ease
+
+        &:hover
+            background: url(blur)
+
+        .is-cart &
+            opacity: 0.5
+            visibility: visible
+
+    &__item
+        background: #ffffff
+        border-radius: 4px
+        border: solid 1px #eee
+
+        .price
+            display: block
+            text-align: right
+            padding: 0 16px
+            font-size: 14px
+            font-weight: medium
+
+    .btn--remove:before
+        display: none
+
+    &__remove
+        left: auto
+        right: 0
+
+        .ico
+            width: 10px
+            height: 10px
+            fill: #A3A3A3
+
+    &__name a
+        font-size: 14px
+        font-weight: regular
+        color: #000
+
+    &__qtd
+        opacity: 1
+        color: #999999
+        font-size: 12px
+
+    &__totals
+        display: flex
+        justify-content: space-between
+        align-items: center
+        border-top: solid 1px #eeeeee
+        padding-top: 16px
+        margin-top: 16px
+
+        .price-box-avista, .price-box-parcelado
+            display: none
+
+        .title
+            margin-bottom: 0
+            font-size: 12px
+            font-weight: regular
+            text-transform: uppercase
+            color: #666666
+
+        .regular-price
+            .label
+                display: none
+
+            .price
+                font-size: 15px
+                font-weight: medium
+
+    &__actions
+        margin: 16px 0 0
+        padding-top: 16px
+        justify-content: center
+        border-top: solid 1px #eee
+
+        .editar
+            display: none
+
+        .finalizar
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 4px
+            flex: 0 0 170px
+            padding: 0
+            width: 170px
+            height: 50px
+            font-size: 13px
+            font-weight: medium
+            text-align: center
+            background: #000
+            color: #fff
+
+            span
+                display: none
+
+            &:before
+                content: 'IR PARA O PAGAMENTO'

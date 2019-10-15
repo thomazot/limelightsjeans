@@ -1,0 +1,70 @@
+.footer
+    width: 100%
+    max-width: viewport
+    margin: 0 auto
+    padding: 55px 16px
+    font-size: 13px
+    line-height: 1.5
+    font-weight: regular
+    color: #7e7e7e
+    text-align: center
+
+    &__row
+        max-width: 100%
+
+    .socials
+        margin-top: 10px
+
+        &__svg
+            height: 20px
+
+    .mymenu .a--0
+        font-size: 13px
+        font-weight: regular
+        color: #7e7e7e
+
+        &:hover
+            color: #FE783E
+
+    &__col
+        margin-bottom: 30px
+
+    &__title
+        font-size: 16px
+        font-weight: medium
+        color: #000
+        margin-bottom: 16px
+
+    &-container
+        background: #F4F4F4
+
+    .flex--a-center
+        justify-content: center
+
+    .pays__svg
+        height: 20px
+
+@media (min-width: 993px)
+    .footer
+        text-align: left
+
+        #payments
+            margin: 0 auto
+
+        .flex--a-center
+            justify-content: flex-start
+
+        &__row
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+            min-width: 0
+
+            &:nth-child(1)
+                .footer__col
+                    &:nth-child(1)
+                        flex: 0 1 280px
+
+            &:nth-child(2)
+                .flex--a-center
+                    justify-content: center

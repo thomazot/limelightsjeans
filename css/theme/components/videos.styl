@@ -1,0 +1,83 @@
+.videos
+    padding: 16px
+
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+    &__title
+        font-size: 30px
+        font-weight: regular
+        text-transform: uppercase
+        color: #FE783E
+
+    &__description
+        font-size: 36px
+        font-weight: regular
+        text-transform: uppercase
+
+    &__text
+        font-size: 14px
+        font-weight: regular
+        color: #666
+        padding: 10px 0
+
+    &__link
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 12px
+        font-weight: regular
+        color: #fff
+        background: #000
+        width: 100px
+        height: 40px
+        margin: 20px 0
+        border-radius: 4px
+
+    &__container
+        width: 1000px
+        max-width: 100%
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: stretch
+
+    &__row
+        height: 66.666%
+
+        &:last-child
+            height: 33.333%
+            padding: 10px
+
+    &__play-1
+        flex: 1 1 30%
+        max-width: 30%
+        display: none
+
+    &__item
+        flex: 1
+        min-width: 0
+
+    &__play-2
+        flex: 0 0 50%
+        height: 50%
+
+    &__play-1, &__play-2, &__content
+        padding: 10px
+
+@media (min-width: 993px)
+    .videos
+        &__row
+            display: flex
+            height: 50%
+
+            &:last-child
+                height: 50%
+
+        &__play-1
+            display: block
+
+        &__play-2
+            height: 100%
