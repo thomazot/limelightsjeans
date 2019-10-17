@@ -1,0 +1,76 @@
+
+.newsletter
+    background: color1_bg
+
+    .input-text
+        box-shadow: none
+        border: 0
+        background: none
+        flex: 1
+        font-size: 14px
+        font-weight: light
+        color: #ffffff
+        padding: 0 15px
+        text-align: right
+        width: 100%
+        margin-bottom: 0
+
+        &::placeholder
+            color: #fff
+
+    &__form
+        display: flex
+        flex-wrap: nowrap
+        width: 100%
+        max-width: viewport
+        margin: 0 auto
+
+    &__text
+        display: none
+
+    &__email
+        flex: 1
+        min-width: 0
+        margin: 0
+        padding: 0
+
+    &__submit
+        flex: 0
+        margin: 0
+        padding: 0
+
+    &__btn
+        position: relative
+        height: 50px
+        width: 50px
+        margin: 0
+
+        span
+            position: absolute
+            top: 50%
+            left: 50%
+            height: 2px
+            width: 40%
+            background: #fff
+            transform: translateX(-50%) translateY(-50%)
+
+            &:before, &:after
+                content: ''
+                position: absolute
+                right: 0
+                display: block
+                width: 8px
+                height: 2px
+                background: #fff
+                border-radius: 2px
+
+            &:before
+                top: -4px
+                transform: rotate(45deg)
+
+            &:after
+                bottom: -4px
+                transform: rotate(-45deg)
+
+            span
+                display: none

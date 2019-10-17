@@ -1,2 +1,26 @@
 .breadcrumb
     display: none
+    background: #F6F6F6
+    margin-top: -16px
+    height: 50px
+    box-shadow: 800px 0 0 #F6F6F6, -800px 0 0 #F6F6F6
+    justify-content: center
+    align-items: center
+
+    &__home
+        .breadcrumb__link
+            font-size: 12px
+            color: #BBBBBB
+
+            &:before
+                display: none
+
+    &__last
+        font-size: 12px
+        font-weight: regular
+        color: #000
+
+@media (min-width: 993px)
+    .breadcrumb
+        .catalog-product-view &
+            display: flex
