@@ -37,7 +37,7 @@
         "@babel/preset-env": "^7.4.1",
         "@webcomponents/webcomponentsjs": "^2.0.0",
         "autoprefixer": "^9.0.1",
-        "browser-sync": "^2.26.3",
+        "browser-sync": "^2.27.10",
         "gulp-postcss": "^7.0.0",
         "postcss": "^6.0.23",
         "postcss-pxtorem": "^4.0.1",
